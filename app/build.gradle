@@ -1,15 +1,5 @@
 apply plugin: 'com.android.library'
 
-apply plugin: 'maven'
-
-group = 'com.shebovich.messageview'
-version = '1.0'
-
-uploadArchives {
-    repositories {
-        mavenLocal()
-    }
-}
 android {
     compileSdkVersion 29
     buildToolsVersion "29.0.3"
@@ -36,8 +26,8 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.2'
     testImplementation 'junit:junit:4.12'
+
     implementation 'com.github.Adilhusen:circle-progress-ad-android-:1.0'
-    implementation 'com.github.Shebovich:MessageView:1.0'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
