@@ -1,2 +1,3 @@
+include ':MessageViewBaseWidget'
 include ':app'
 rootProject.name = "MessageView"
