@@ -2,7 +2,9 @@ package BaseWidget;
 
 import android.graphics.drawable.Drawable;
 
-import com.okbtsp.messenger.AppUtils.StaticValues;
+
+
+import static BaseWidget.MessageView.DOWNLOADING;
 
 public class DownloadingState implements IFileState {
 
@@ -17,7 +19,7 @@ public class DownloadingState implements IFileState {
 
     @Override
     public int getCurrentState() {
-        return StaticValues.DOWNLOADING;
+        return DOWNLOADING;
     }
 
     @Override
