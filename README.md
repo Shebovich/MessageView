@@ -22,10 +22,16 @@ MessageView has the following types:
 
 
 ### Installation
-
+```sh
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+```
 
 ```sh
-implementation 'com.github.Shebovich:MessageView:0.1.2'
+implementation 'com.github.Shebovich.MessageView:MessageViewBaseWidget:0.1.2'
 ```
 
 ### Start work
