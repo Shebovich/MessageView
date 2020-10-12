@@ -57,7 +57,7 @@ messageView.setMessageText("Hello, developer!");
 messageView.setEditedMessage(View.VISIBLE); // if message is edited
 messageView.setMessageStatus(MessageView.IS_VIEWED); //if message is viewed
 ```
-![text_message_own.png](../MessageViewScreens/text_message_own.png)
+![text_message_own.png](MessageViewScreens/text_message_own.png)
 
 To show not own view:
 
@@ -72,19 +72,19 @@ app:isOwnMessage="true"
 messageView.setMessageDisplayName("Pavel Urbanovich");
 ```
 
-![text_message_not_own.png](../MessageViewScreens/text_message_not_own.png)
+![text_message_not_own.png](MessageViewScreens/text_message_not_own.png)
 
 To initialize Reply view add this line:
 ```sh
 messageView.setReplyMessage(replyMessage,replyName);
 ```
-![reply_message.png](../MessageViewScreens/reply_message.png)
+![reply_message.png](MessageViewScreens/reply_message.png)
 
 To initialize forward view add this line:
 ```sh
 messageView.setForwardView(forwardName);
 ```
-![forward.png](../MessageViewScreens/forward.png)
+![forward.png](MessageViewScreens/forward.png)
 
 To initialize Link view add this line:
 ```sh
@@ -92,7 +92,7 @@ messageView.setLinkView("Google","hello google","google is famous search system 
 messageView.getLinkImage().setImageResource(drawable);
 ```
 
-![link_view.png](../MessageViewScreens/link_view.png)
+![link_view.png](MessageViewScreens/link_view.png)
 ### Files
 MessageView contains 3 types of files:
 
@@ -106,15 +106,15 @@ MessageView contains 3 types of files:
  messageView.setFileState(MessageView.NOT_DOWNLOADED, image);
 ```
 
-![file_not_download.png](../MessageViewScreens/file_not_download.png)
+![file_not_download.png](MessageViewScreens/file_not_download.png)
 
 ```sh
  messageView.setFileState(MessageView.DOWNLOADING, image);
  messageView.setProgress(40);
 ```
-![file_downloading.png](../MessageViewScreens/file_downloading.png)
+![file_downloading.png](MessageViewScreens/file_downloading.png)
 ```sh
  messageView.setFileState(MessageView.FILE_DOWNLOAD, image);
 ```
-![file_view.png](../MessageViewScreens/file_view.png)
+![file_view.png](MessageViewScreens/file_view.png)
 
